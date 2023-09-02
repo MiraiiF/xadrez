@@ -1,3 +1,6 @@
 # Tabuleiro_de_Xadrez
+Firmware para o controle lógico de um jogo de xadrez. O hardware foi produzido por eu e mais dois alunos (Caio Nobre e Lucas Mariano) da Universidade Federal do Ceará e tem uma estrutura parecida com a de um teclado matricial. Partindo dessa ideia, fiz um firmware com uma pequena máquina de estados para detectar capturas, movimentos e roque. Esse código foi desenvolvido de forma a ser introduzido sem muitas alterações a um microcontrolador ESP32, exigindo apenas que sejam trocadas algumas funções fakes que fiz com o intuito de teste pelas funções da HAL, propriamente ditas.
 
-"Em desenvolvimento" -> Firmware para um sistema que coleta dados de um tabuleiro que serão representados de forma gráfica em um monitor.
+Firmware for the logic control of a chess game. The hardware has been produced by me and other two students (Caio Nobre and Lucas Mariano) from the Federal University of Fortaleza (UFC) and has a structure that is similar to a matrix keypad. With that in mind, I've made a firmware with a simple state machine that detects plays like movements, captures and castling. This code was made to be inserted without many changes into an ESP32 microcontroller, the only relevant changes are to substitute the fake functions I've made for the corresponding ones from the HAL library.
+
+Any questions? Just post something and I'll respond!
